@@ -1,0 +1,42 @@
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(233, 61, 61);
+    color: aliceblue;
+    border-bottom: 3px solid black;
+    font-family: 'Patrick Hand', cursive;
+    
+    .imgtag{
+        clip-path: circle(50% at center);
+    }
+    img{
+        width: 400px;
+        scale:1;
+        background-color: rgb(177, 47, 47);
+        
+    }
+
+    p{
+        font-size: large;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        margin-top: 20px;
+        font-size: 1.3em;
+        font-family: 'Patrick Hand', cursive;
+        border-radius: 50px;
+        border: none;
+        transition: 0.2s ease-out;
+        &:hover{
+            transition: 0.2s ease-out;
+            box-shadow: 5px 3px rgb(102, 79, 79);
+        }
+    }
+    
+}
+

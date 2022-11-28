@@ -1,0 +1,35 @@
+
+.card{
+    width: 300px;
+    padding: 20px;
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgb(233, 61, 61);
+    color: aliceblue;
+    border: 2px solid rgb(106, 35, 35);
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transition: 0.3s ease-in;
+    &:hover{
+        transition: 0.3s ease-out;
+        width: 310px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    button{
+        padding: 10px 20px;
+        margin-top: 20px;
+        font-size: 1.3em;
+        font-family: 'Patrick Hand', cursive;
+        border-radius: 50px;
+        border: none;
+        transition: 0.2s ease-out;
+        &:hover{
+            transition: 0.2s ease-out;
+            box-shadow: 5px 3px rgb(102, 79, 79);
+        }
+    }
+}
